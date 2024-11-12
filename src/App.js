@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MainLayout from './components/Layouts/MainLayout';
 
 function App() {
   return (
     <div className="App">
-     <h1>Todo App</h1>
+ 
+      <MainLayout/>
     </div>
   );
 }
